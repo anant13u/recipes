@@ -1,17 +1,20 @@
 body {
     background-color: #659dbd;
-    background-image: url(recipes/Images/background-vegan-healthy-food-delivery-boxes-white-package-vegetable-black-table-background-187035178.jpg);
+    background-image: url(recipes/Images/new-vegetables-set-left-black-slate_1220-685.webp);
 }
 
 .recipe-link {
-    margin: 10px 0 0 250px;
-    color: white;
+    margin: 10px 0 0 20px;
+    padding: 5px;
+    color: wheat;
+    width: 250px;
+    font-weight: bold;
     /* padding: 5px; */
 }
 
 h2 {
     /* text-indent: 25px; */
-    margin: 510px 0 0 285px;
+    margin: 50px 0 0 60px;
     /* box-sizing: border-box; */
     max-width: 300px;
     /* border: 3px solid; */
@@ -25,4 +28,8 @@ h2 {
 
 .recipe-link, h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:link, a:visited {
+    color: #f15e50;
 }
