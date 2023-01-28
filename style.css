@@ -10,7 +10,7 @@ body {
 
 .list-container {
     margin: 2px 0;
-    border: 2px solid firebrick;
+    /* border: 2px solid firebrick; */
     display: flex;
     /* justify-content:space-evenly; */
     /* flex-wrap: wrap; */
@@ -19,9 +19,12 @@ body {
     width: 600px;
 }
 
+/* For justify-content to work and justify the space items are taking, flex-grow needs to be 0 otherwise with flex-grow: 1 the items will  */
+/* already be spaced out. */
+
 .recipe-link {
     margin: 10px 0 0 20px;
-    border: 2px solid firebrick;
+    /* border: 2px solid firebrick; */
     padding: 5px 0;
     /* gap: 5px; */
     color: wheat;
