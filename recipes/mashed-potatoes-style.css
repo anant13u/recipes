@@ -1,5 +1,5 @@
 body {
-  margin: 5px 0 0 35px;  
+  margin: 5px 0 0 35px;
   /* margin-left: 25px; */
   /* margin-top: 5px; */
   font-family: sans-serif;
@@ -17,16 +17,23 @@ h4 {
   margin-top: 20px;
 }
 
+.ingredients-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 400px;
+  /* border: 2px solid firebrick; */
+}
+
 .steps-container {
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    width: 400px;
-    /* border: 2px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  width: 800px;
 }
 
 li {
-    flex: 1;
-  margin-top: 10px;
+  /* flex: 1; */
+  line-height: 1.8;
+  /* margin: 5px 0 0; */
   /* background-color: white; */
 }
