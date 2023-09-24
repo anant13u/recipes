@@ -14,6 +14,8 @@ async function fetchVideo(event) {
     // console.log(`The Video URL is ${videoUrl2}`)
     
     const iframeHtml = `<iframe width="560" height="315" src="${embedUrl}" frameborder="0" style='border-radius:15px' allowfullscreen></iframe>`;
+    const iframeHtml = `<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
+
     console.log(`iFrameHtml is ${iframeHtml}`)
     
     recipeVideo.innerHTML = iframeHtml
