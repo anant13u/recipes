@@ -6,7 +6,7 @@ body {
   background-color: rgb(233, 230, 230);
 }
 
-.all-container {
+.parent-container {
   /* border: 2px solid firebrick; */
   display: flex;
   flex-direction: column;
@@ -15,6 +15,9 @@ body {
 
 .header-image-container {
   border: 2px solid firebrick;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
