@@ -1,5 +1,5 @@
 body {
-  margin: 5px 0 0 35px;
+  /* margin: 5px 0 0 35px; */
   /* margin-left: 25px; */
   /* margin-top: 5px; */
   font-family: sans-serif;
@@ -7,40 +7,53 @@ body {
 }
 
 .parent-container {
-  /* border: 2px solid firebrick; */
+  border: 2px solid firebrick;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
     .header-image-container {
-        border: 2px solid firebrick;
+        border: 2px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-        h1 {
-            padding-top: 10px;
+        /* #main-header {
+            border: 2px solid saddlebrown;
+        } */
+
+        #dish-image {
+            border-radius: 0.3em;
         }
 
-/* h3 {
-  margin-top: 20px;
-} */
+        #decsription {
+            /* border: 2px solid saddlebrown; */
+            width: 35em;
+            text-align: center;
+        }
 
-.ingredients-container {
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
-  width: 400px;
-  /* border: 2px solid firebrick; */
-}
+    .ingredients-steps-container {
+        border: 2px solid greenyellow;
+        width: 50em;
+        /* display: flex; */
+    }
 
-.steps-container {
-  display: flex;
-  flex-direction: column;
-  width: 800px;
-}
+        .ingredients-container, .steps-container {
+            border: 2px solid salmon;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* .steps-container {
+            width: 800px;
+        } */
+
+        .secondary-headers {
+            /* border: 2px solid salmon; */
+            padding: 0 0 0 2.2em;
+        }
 
 li {
   /* flex: 1; */
