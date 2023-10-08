@@ -1,20 +1,17 @@
 body {
-  /* margin: 5px 0 0 35px; */
-  /* margin-left: 25px; */
-  /* margin-top: 5px; */
-  font-family: sans-serif;
-  background-color: rgb(233, 230, 230);
+    font-family: sans-serif;
+    background-color: rgb(233, 230, 230);
 }
 
 .parent-container {
-  border: 2px solid firebrick;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    border: 2px solid firebrick;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
     .header-image-container {
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -35,29 +32,32 @@ body {
         }
 
     .ingredients-steps-container {
-        border: 2px solid greenyellow;
+        /* border: 2px solid greenyellow; */
         width: 50em;
         /* display: flex; */
     }
-
-        .ingredients-container, .steps-container {
-            border: 2px solid salmon;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* .steps-container {
-            width: 800px;
-        } */
 
         .secondary-headers {
             /* border: 2px solid salmon; */
             padding: 0 0 0 2.2em;
         }
 
-li {
-  /* flex: 1; */
-  line-height: 1.8;
-  /* margin: 5px 0 0; */
-  /* background-color: white; */
-}
+        .ingredients-container, .steps-container {
+            /* border: 2px solid salmon; */
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+        }
+
+            li {
+                line-height: 1.8;
+            }
+
+    .page-links-container {
+        /* border: 2px solid salmon; */
+        padding: 1em 0 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
