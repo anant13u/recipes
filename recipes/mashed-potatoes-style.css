@@ -4,7 +4,7 @@ body {
 }
 
 .parent-container {
-    border: 2px solid firebrick;
+    /* border: 2px solid firebrick; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,9 +12,11 @@ body {
 
     .header-image-container {
         /* border: 2px solid black; */
+        padding: 1em 0;
         display: flex;
         flex-direction: column;
         align-items: center;
+        /* gap: 1em; */
     }
 
         /* #main-header {
@@ -22,10 +24,12 @@ body {
         } */
 
         #dish-image {
+            /* margin: 1em 0 0; */
             border-radius: 0.3em;
         }
 
         #decsription {
+            /* margin: 0; */
             /* border: 2px solid saddlebrown; */
             width: 35em;
             text-align: center;
@@ -33,6 +37,7 @@ body {
 
     .ingredients-steps-container {
         /* border: 2px solid greenyellow; */
+        padding: 0 4em;
         width: 50em;
         /* display: flex; */
     }
