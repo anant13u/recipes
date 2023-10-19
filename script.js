@@ -11,11 +11,8 @@ async function fetchVideo(event) {
     const videoID = getVideoID(event.target.href);
     const embedUrl = `https://www.youtube.com/embed/${videoID}?autoplay=1`;
     // console.log('embedUrl is: ' + event.target.href)
-    // console.log(`Embed URL is ${thumbnailUrl1}`)
     
     const iframeHtml = `<iframe width="560" height="315" src="${embedUrl}" frameborder="0" style='border-radius:15px' allowfullscreen></iframe>`;
-    // const iframeHtml = `<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
-
     console.log(`iFrameHtml is ${iframeHtml}`)
     recipeVideo.innerHTML = iframeHtml
 }
@@ -23,6 +20,7 @@ async function fetchVideo(event) {
 function getVideoID(url) {
     // Create a new URLSearchParams object by passing the search portion of the URL as an argument
     const urlParams = new URLSearchParams(new URL(url).search);
+    console.log(urlParams)
     // Use the get method of URLSearchParams to retrieve the value associated with the key 'v'
     // In the context of YouTube URLs, 'v' typically represents the video ID
     return urlParams.get('v');
