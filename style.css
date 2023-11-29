@@ -74,7 +74,8 @@ body {
         border: 2px solid greenyellow;
     }
 
-    #video-close {
-        background-color: black;
-        color: white;
-    }
+        #video-close {
+            padding: 0.7em 1em;
+            background-color: black;
+            color: white;
+        }
