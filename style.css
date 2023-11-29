@@ -75,6 +75,7 @@ body {
     }
 
         #video-close {
+            border-radius: 0.7em;
             padding: 0.7em 1em;
             background-color: black;
             color: white;
